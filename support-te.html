@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذان الصلاة: అజాన్ అల్ సలాత్ - మద్దతు</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #1A3C34;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        h3 { color: var(--text-color); margin: 20px 0 10px; font-size: 1.1em; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(200,169,81,0.12);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid #C8A951;
+        }
+        .contact-box {
+            background: rgba(200,169,81,0.08);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .contact-box p { margin-bottom: 8px; }
+        .contact-box strong { color: var(--accent-color); }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .faq-item { margin-bottom: 25px; }
+        .faq-question { font-weight: 600; color: var(--text-color); margin-bottom: 8px; }
+        .faq-answer { color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="support.html">English</option>
+                <option value="support-af.html">Afrikaans</option>
+                <option value="support-sq.html">Shqip</option>
+                <option value="support-am.html">ሀመር</option>
+                <option value="support-ar.html">العربية</option>
+                <option value="support-hy.html">Հայերեն</option>
+                <option value="support-az.html">Azərbayccan</option>
+                <option value="support-eu.html">Euskara</option>
+                <option value="support-be.html">Беларуская</option>
+                <option value="support-bn.html">বাংলা</option>
+                <option value="support-bg.html">Български</option>
+                <option value="support-my.html">မြန်မာ</option>
+                <option value="support-ca.html">Català</option>
+                <option value="support-zh-CN.html">简体中文</option>
+                <option value="support-zh-HK.html">中文(香港)</option>
+                <option value="support-zh-TW.html">繁體中文</option>
+                <option value="support-hr.html">Hrvatski</option>
+                <option value="support-cs.html">Čeština</option>
+                <option value="support-da.html">Dansk</option>
+                <option value="support-nl.html">Nederlands</option>
+                <option value="support-et.html">Eesti</option>
+                <option value="support-fil.html">Filipino</option>
+                <option value="support-fi.html">Suomi</option>
+                <option value="support-fr.html">Français</option>
+                <option value="support-fr-CA.html">Français (Canada)</option>
+                <option value="support-gl.html">Galego</option>
+                <option value="support-ka.html">ქართული</option>
+                <option value="support-de.html">Deutsch</option>
+                <option value="support-el.html">Ελληνικά</option>
+                <option value="support-gu.html">ગુજરાતી</option>
+                <option value="support-hi.html">हिन्दी</option>
+                <option value="support-hu.html">Magyar</option>
+                <option value="support-is.html">Íslenska</option>
+                <option value="support-id.html">Bahasa Indonesia</option>
+                <option value="support-it.html">Italiano</option>
+                <option value="support-ja.html">日本語</option>
+                <option value="support-kn.html">ಕನ್ನಡ</option>
+                <option value="support-kk.html">Қазақ</option>
+                <option value="support-km.html">ខ្មែរ</option>
+                <option value="support-ko.html">한국어</option>
+                <option value="support-ky.html">Кыргызча</option>
+                <option value="support-lo.html">ລາວ</option>
+                <option value="support-lv.html">Latviešu</option>
+                <option value="support-lt.html">Lietuvių</option>
+                <option value="support-mk.html">Македонски</option>
+                <option value="support-ms.html">Bahasa Melayu</option>
+                <option value="support-ml.html">മലയാളം</option>
+                <option value="support-mr.html">मराठी</option>
+                <option value="support-mn.html">Монгол</option>
+                <option value="support-ne.html">नेपाली</option>
+                <option value="support-no.html">Norsk</option>
+                <option value="support-fa.html">فارسی</option>
+                <option value="support-pl.html">Polski</option>
+                <option value="support-pt-BR.html">Português (Brasil)</option>
+                <option value="support-pt-PT.html">Português (Portugal)</option>
+                <option value="support-pa.html">ਪੰਜਾਬੀ</option>
+                <option value="support-ro.html">Română</option>
+                <option value="support-rm.html">Rumantsch</option>
+                <option value="support-ru.html">Русский</option>
+                <option value="support-sr.html">Српски</option>
+                <option value="support-si.html">සිංහල</option>
+                <option value="support-sk.html">Slovenčina</option>
+                <option value="support-sl.html">Slovenščina</option>
+                <option value="support-es-419.html">Español (Latinoamérica)</option>
+                <option value="support-es-ES.html">Español (España)</option>
+                <option value="support-es-US.html">Español (EE. UU.)</option>
+                <option value="support-sw.html">Kiswahili</option>
+                <option value="support-sv.html">Svenska</option>
+                <option value="support-ta.html">தமிழ்</option>
+                <option value="support-te.html" selected>తెలుగు</option>
+                <option value="support-th.html">ไทย</option>
+                <option value="support-tr.html">Türkçe</option>
+                <option value="support-uk.html">Українська</option>
+                <option value="support-ur.html">اردو</option>
+                <option value="support-vi.html">Tiếng Việt</option>
+                <option value="support-zu.html">isiZulu</option>
+            </select>
+        </div>
+
+        <h1>أذان الصلاة: అజాన్ అల్ సలాత్ మద్దతు</h1>
+        <p>أذان الصلاة: అజాన్ అల్ సలాత్ తో మీకు సహాయం చేయడానికి మేము ఇక్కడ ఉన్నాము!</p>
+
+        <div class="highlight">
+            <strong>సహాయం కావాలా?</strong> దిగువ తరచుగా అడిగే ప్రశ్నలను చూడండి లేదా నేరుగా మమ్మల్ని సంప్రదించండి.
+        </div>
+
+        <h2>సంప్రదింపు సమాచారం</h2>
+        <div class="contact-box">
+            <p><strong>ఇమెయిల్:</strong> <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+        </div>
+
+        <h2>తరచుగా అడిగే ప్రశ్నలు</h2>
+
+        <div class="faq-item">
+            <p class="faq-question">నా కొనుగోళ్లను ఎలా పునరుద్ధరించాలి?</p>
+            <p class="faq-answer">మీ మునుపటి కొనుగోళ్లను పునరుద్ధరించడానికి, యాప్‌లో సెట్టింగులు ట్యాబ్‌కు వెళ్ళి "కొనుగోళ్లు పునరుద్ధరించు" అని నొక్కండి. ఇది మీ Apple ID తో అనుసంధానించబడిన ఏదైనా సదస్యత్వాలు లేదా చిట్కాలను పునరుద్ధరిస్తుంది.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">నా స్థానాన్ని ఎలా సెట్ చేయాలి?</p>
+            <p class="faq-answer">ఖచ్చితమైన నమాజు సమయాలను లెక్కించడానికి యాప్ స్వయంచాలకంగా మీ GPS స్థానాన్ని అభ్యర్థిస్తుంది. మీరు మాన్యువల్ స్థానాన్ని ఇష్టపడితే, నగర శోధనకు మారడానికి నమాజు స్క్రీన్ పైభాగంలో ఉన్న స్థాన కార్డ్‌ను నొక్కండి.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">నా నమాజు సమయాలు ఇతర యాప్‌ల కంటే ఎందుకు భిన్నంగా ఉంటాయి?</p>
+            <p class="faq-answer">నమాజు సమయ గణనలు ఉపయోగించిన గణన పద్ధతిపై ఆధారపడి ఉంటాయి. వేర్వేరు పద్ధతులు కొద్దిగా వేర్వేరు సమయాలను ఇస్తాయి. మీ స్థానిక అధికారం లేదా ప్రాధాన్యతకు సరిపోలేలా సెట్టింగులు &gt; గణన పద్ధతిలో పద్ధతిని మార్చవచ్చు.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">అజాన్ శబ్దాన్ని ఎలా ఆన్ చేయాలి లేదా మార్చాలి?</p>
+            <p class="faq-answer">నమాజు స్క్రీన్‌లో ఏదైనా నమాజు కార్డ్‌ను నొక్కి, తర్వాత శబ్ద చిహ్నాన్ని నొక్కండి. మీరు ఏమీ లేదు, నిశ్శబ్దం, బీప్ లేదా అజాన్ మధ్య ఎంచుకోవచ్చు. అజాన్ ఎంచుకుంటే, ఒక శబ్దాన్ని ఎంచుకుని ఒక నమాజుకు లేదా అన్ని నమాజులకు వర్తింపజేయవచ్చు.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">యాప్ భాషను ఎలా మార్చాలి?</p>
+            <p class="faq-answer">సెట్టింగులు &gt; భాషకు వెళ్ళండి. أذان الصلاة: అజాన్ అల్ సలాత్ దాని స్వంత అంతర్నిర్మిత భాష సెట్టింగ్ కలిగి ఉంది మరియు 76 భాషలకు మద్దతు ఇస్తుంది. ఇది స్వయంచాలకంగా మీ పరికర భాషను అనుసరించదు.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">బగ్‌ను ఎలా నివేదించాలి లేదా ఫీచర్‌ను ఎలా సూచించాలి?</p>
+            <p class="faq-answer">మీ నుండి వినడానికి మేము చాలా ఇష్టపడతాము! సమస్య లేదా సూచన వివరణతో <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> కు ఇమెయిల్ పంపండి. బగ్ నివేదించేటప్పుడు మీ పరికర మోడల్ మరియు iOS వెర్షన్ చేర్చండి.</p>
+        </div>
+
+        <h2>అదనపు వనరులు</h2>
+        <ul>
+            <li><a href="https://yasserhamek.github.io/AthanAlSalat_PrivacyPolicy/privacy-policy-te.html">గోప్యతా విధానం</a></li>
+        </ul>
+
+        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">أذان الصلاة: అజాన్ అల్ సలాత్ ఉపయోగించినందుకు ధన్యవాదాలు!</p>
+    </div>
+</body>
+</html>

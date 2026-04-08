@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذان الصلاة: Azan al Salat - Suport</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #1A3C34;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        h3 { color: var(--text-color); margin: 20px 0 10px; font-size: 1.1em; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(200,169,81,0.12);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid #C8A951;
+        }
+        .contact-box {
+            background: rgba(200,169,81,0.08);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .contact-box p { margin-bottom: 8px; }
+        .contact-box strong { color: var(--accent-color); }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .faq-item { margin-bottom: 25px; }
+        .faq-question { font-weight: 600; color: var(--text-color); margin-bottom: 8px; }
+        .faq-answer { color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="support-android.html">English</option>
+                <option value="support-android-af.html">Afrikaans</option>
+                <option value="support-android-sq.html">Shqip</option>
+                <option value="support-android-am.html">ሀመር</option>
+                <option value="support-android-ar.html">العربية</option>
+                <option value="support-android-hy.html">Հայերեն</option>
+                <option value="support-android-az.html">Azərbayccan</option>
+                <option value="support-android-eu.html">Euskara</option>
+                <option value="support-android-be.html">Беларуская</option>
+                <option value="support-android-bn.html">বাংলা</option>
+                <option value="support-android-bg.html">Български</option>
+                <option value="support-android-my.html">မြန်မာ</option>
+                <option value="support-android-ca.html" selected>Català</option>
+                <option value="support-android-zh-CN.html">简体中文</option>
+                <option value="support-android-zh-HK.html">中文(香港)</option>
+                <option value="support-android-zh-TW.html">繁體中文</option>
+                <option value="support-android-hr.html">Hrvatski</option>
+                <option value="support-android-cs.html">Čeština</option>
+                <option value="support-android-da.html">Dansk</option>
+                <option value="support-android-nl.html">Nederlands</option>
+                <option value="support-android-et.html">Eesti</option>
+                <option value="support-android-fil.html">Filipino</option>
+                <option value="support-android-fi.html">Suomi</option>
+                <option value="support-android-fr.html">Français</option>
+                <option value="support-android-fr-CA.html">Français (Canada)</option>
+                <option value="support-android-gl.html">Galego</option>
+                <option value="support-android-ka.html">ქართული</option>
+                <option value="support-android-de.html">Deutsch</option>
+                <option value="support-android-el.html">Ελληνικά</option>
+                <option value="support-android-gu.html">ગુજરાતી</option>
+                <option value="support-android-hi.html">हिन्दी</option>
+                <option value="support-android-hu.html">Magyar</option>
+                <option value="support-android-is.html">Íslenska</option>
+                <option value="support-android-id.html">Bahasa Indonesia</option>
+                <option value="support-android-it.html">Italiano</option>
+                <option value="support-android-ja.html">日本語</option>
+                <option value="support-android-kn.html">ಕನ್ನಡ</option>
+                <option value="support-android-kk.html">Қазақ</option>
+                <option value="support-android-km.html">ខ្មែរ</option>
+                <option value="support-android-ko.html">한국어</option>
+                <option value="support-android-ky.html">Кыргызча</option>
+                <option value="support-android-lo.html">ລາວ</option>
+                <option value="support-android-lv.html">Latviešu</option>
+                <option value="support-android-lt.html">Lietuvių</option>
+                <option value="support-android-mk.html">Македонски</option>
+                <option value="support-android-ms.html">Bahasa Melayu</option>
+                <option value="support-android-ml.html">മലയാളം</option>
+                <option value="support-android-mr.html">मराठी</option>
+                <option value="support-android-mn.html">Монгол</option>
+                <option value="support-android-ne.html">नेपाली</option>
+                <option value="support-android-no.html">Norsk</option>
+                <option value="support-android-fa.html">فارسی</option>
+                <option value="support-android-pl.html">Polski</option>
+                <option value="support-android-pt-BR.html">Português (Brasil)</option>
+                <option value="support-android-pt-PT.html">Português (Portugal)</option>
+                <option value="support-android-pa.html">ਪੰਜਾਬੀ</option>
+                <option value="support-android-ro.html">Română</option>
+                <option value="support-android-rm.html">Rumantsch</option>
+                <option value="support-android-ru.html">Русский</option>
+                <option value="support-android-sr.html">Српски</option>
+                <option value="support-android-si.html">සිංහල</option>
+                <option value="support-android-sk.html">Slovenčina</option>
+                <option value="support-android-sl.html">Slovenščina</option>
+                <option value="support-android-es-419.html">Español (Latinoamérica)</option>
+                <option value="support-android-es-ES.html">Español (España)</option>
+                <option value="support-android-es-US.html">Español (EE. UU.)</option>
+                <option value="support-android-sw.html">Kiswahili</option>
+                <option value="support-android-sv.html">Svenska</option>
+                <option value="support-android-ta.html">தமிழ்</option>
+                <option value="support-android-te.html">తెలుగు</option>
+                <option value="support-android-th.html">ไทย</option>
+                <option value="support-android-tr.html">Türkçe</option>
+                <option value="support-android-uk.html">Українська</option>
+                <option value="support-android-ur.html">اردو</option>
+                <option value="support-android-vi.html">Tiếng Việt</option>
+                <option value="support-android-zu.html">isiZulu</option>
+            </select>
+        </div>
+
+        <h1>Suport d'أذان الصلاة: Azan al Salat</h1>
+        <p>Estem aquí per ajudar-vos amb أذان الصلاة: Azan al Salat!</p>
+
+        <div class="highlight">
+            <strong>Necessiteu ajuda?</strong> Consulteu les preguntes freqüents a continuació o poseu-vos en contacte amb nosaltres directament.
+        </div>
+
+        <h2>Informació de contacte</h2>
+        <div class="contact-box">
+            <p><strong>Correu electrònic:</strong> <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+        </div>
+
+        <h2>Preguntes freqüents</h2>
+
+        <div class="faq-item">
+            <p class="faq-question">Com restauro les meves compres?</p>
+            <p class="faq-answer">Les compres es restauren automàticament quan heu iniciat sessió al mateix compte de Google que vau usar per a la compra original. Si les vostres compres no apareixen, assegureu-vos que heu iniciat sessió al compte de Google correcte i proveu de reiniciar l'aplicació.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Com configuro la meva ubicació?</p>
+            <p class="faq-answer">L'aplicació sol·licita automàticament la vostra ubicació GPS per calcular les hores exactes de l'oració. Si preferiu una ubicació manual, toqueu la targeta d'ubicació a la part superior de la pantalla d'Oració per canviar a la cerca per ciutat.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Per què les meves hores d'oració difereixen d'altres aplicacions?</p>
+            <p class="faq-answer">Els càlculs de les hores d'oració depenen del mètode de càlcul utilitzat. Els diferents mètodes donen temps lleugerament diferents. Podeu canviar el mètode a Configuració &gt; Mètode de càlcul per adaptar-lo a la vostra autoritat local o preferència.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Com activo o canvio el so de l'adzà?</p>
+            <p class="faq-answer">Toqueu qualsevol targeta d'oració a la pantalla d'Oració i, a continuació, toqueu la icona de so. Podeu triar entre Cap, Silenciós, Bip o Adzà. Si trieu Adzà, podeu seleccionar un so i aplicar-lo a una oració o a totes.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Com canvio l'idioma de l'aplicació?</p>
+            <p class="faq-answer">Aneu a Configuració &gt; Idioma. أذان الصلاة: Azan al Salat té la seva pròpia configuració d'idioma integrada i admet 76 idiomes. No segueix automàticament l'idioma del vostre dispositiu.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Com informo d'un error o suggereixo una funcionalitat?</p>
+            <p class="faq-answer">Ens encantaria rebre les vostres opinions! Envieu-nos un correu electrònic a <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> amb una descripció del problema o el suggeriment. Quan informeu d'un error, incloeu la versió d'Android i el model del dispositiu.</p>
+        </div>
+
+        <h2>Recursos addicionals</h2>
+        <ul>
+            <li><a href="https://yasserhamek.github.io/AthanAlSalat_PrivacyPolicy/privacy-policy-android-ca.html">Política de privadesa</a></li>
+        </ul>
+
+        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">Gràcies per utilitzar أذان الصلاة: Azan al Salat!</p>
+    </div>
+</body>
+</html>

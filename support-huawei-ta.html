@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذان الصلاة: அதான் அல் சலாத் - ஆதரவு</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #1A3C34;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        h3 { color: var(--text-color); margin: 20px 0 10px; font-size: 1.1em; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(200,169,81,0.12);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid #C8A951;
+        }
+        .contact-box {
+            background: rgba(200,169,81,0.08);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .contact-box p { margin-bottom: 8px; }
+        .contact-box strong { color: var(--accent-color); }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .faq-item { margin-bottom: 25px; }
+        .faq-question { font-weight: 600; color: var(--text-color); margin-bottom: 8px; }
+        .faq-answer { color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="support-huawei.html">English</option>
+                <option value="support-huawei-af.html">Afrikaans</option>
+                <option value="support-huawei-sq.html">Shqip</option>
+                <option value="support-huawei-am.html">ሀመር</option>
+                <option value="support-huawei-ar.html">العربية</option>
+                <option value="support-huawei-hy.html">Հայերեն</option>
+                <option value="support-huawei-az.html">Azərbayccan</option>
+                <option value="support-huawei-eu.html">Euskara</option>
+                <option value="support-huawei-be.html">Беларуская</option>
+                <option value="support-huawei-bn.html">বাংলা</option>
+                <option value="support-huawei-bg.html">Български</option>
+                <option value="support-huawei-my.html">မြန်မာ</option>
+                <option value="support-huawei-ca.html">Català</option>
+                <option value="support-huawei-zh-CN.html">简体中文</option>
+                <option value="support-huawei-zh-HK.html">中文(香港)</option>
+                <option value="support-huawei-zh-TW.html">繁體中文</option>
+                <option value="support-huawei-hr.html">Hrvatski</option>
+                <option value="support-huawei-cs.html">Čeština</option>
+                <option value="support-huawei-da.html">Dansk</option>
+                <option value="support-huawei-nl.html">Nederlands</option>
+                <option value="support-huawei-et.html">Eesti</option>
+                <option value="support-huawei-fil.html">Filipino</option>
+                <option value="support-huawei-fi.html">Suomi</option>
+                <option value="support-huawei-fr.html">Français</option>
+                <option value="support-huawei-fr-CA.html">Français (Canada)</option>
+                <option value="support-huawei-gl.html">Galego</option>
+                <option value="support-huawei-ka.html">ქართული</option>
+                <option value="support-huawei-de.html">Deutsch</option>
+                <option value="support-huawei-el.html">Ελληνικά</option>
+                <option value="support-huawei-gu.html">ગુજરાતી</option>
+                <option value="support-huawei-hi.html">हिन्दी</option>
+                <option value="support-huawei-hu.html">Magyar</option>
+                <option value="support-huawei-is.html">Íslenska</option>
+                <option value="support-huawei-id.html">Bahasa Indonesia</option>
+                <option value="support-huawei-it.html">Italiano</option>
+                <option value="support-huawei-ja.html">日本語</option>
+                <option value="support-huawei-kn.html">ಕನ್ನಡ</option>
+                <option value="support-huawei-kk.html">Қазақ</option>
+                <option value="support-huawei-km.html">ខ្មែរ</option>
+                <option value="support-huawei-ko.html">한국어</option>
+                <option value="support-huawei-ky.html">Кыргызча</option>
+                <option value="support-huawei-lo.html">ລາວ</option>
+                <option value="support-huawei-lv.html">Latviešu</option>
+                <option value="support-huawei-lt.html">Lietuvių</option>
+                <option value="support-huawei-mk.html">Македонски</option>
+                <option value="support-huawei-ms.html">Bahasa Melayu</option>
+                <option value="support-huawei-ml.html">മലയാളം</option>
+                <option value="support-huawei-mr.html">मराठी</option>
+                <option value="support-huawei-mn.html">Монгол</option>
+                <option value="support-huawei-ne.html">नेपाली</option>
+                <option value="support-huawei-no.html">Norsk</option>
+                <option value="support-huawei-fa.html">فارسی</option>
+                <option value="support-huawei-pl.html">Polski</option>
+                <option value="support-huawei-pt-BR.html">Português (Brasil)</option>
+                <option value="support-huawei-pt-PT.html">Português (Portugal)</option>
+                <option value="support-huawei-pa.html">ਪੰਜਾਬੀ</option>
+                <option value="support-huawei-ro.html">Română</option>
+                <option value="support-huawei-rm.html">Rumantsch</option>
+                <option value="support-huawei-ru.html">Русский</option>
+                <option value="support-huawei-sr.html">Српски</option>
+                <option value="support-huawei-si.html">සිංහල</option>
+                <option value="support-huawei-sk.html">Slovenčina</option>
+                <option value="support-huawei-sl.html">Slovenščina</option>
+                <option value="support-huawei-es-419.html">Español (Latinoamérica)</option>
+                <option value="support-huawei-es-ES.html">Español (España)</option>
+                <option value="support-huawei-es-US.html">Español (EE. UU.)</option>
+                <option value="support-huawei-sw.html">Kiswahili</option>
+                <option value="support-huawei-sv.html">Svenska</option>
+                <option value="support-huawei-ta.html" selected>தமிழ்</option>
+                <option value="support-huawei-te.html">తెలుగు</option>
+                <option value="support-huawei-th.html">ไทย</option>
+                <option value="support-huawei-tr.html">Türkçe</option>
+                <option value="support-huawei-uk.html">Українська</option>
+                <option value="support-huawei-ur.html">اردو</option>
+                <option value="support-huawei-vi.html">Tiếng Việt</option>
+                <option value="support-huawei-zu.html">isiZulu</option>
+            </select>
+        </div>
+
+        <h1>أذان الصلاة: அதான் அல் சலாத் ஆதரவு</h1>
+        <p>أذان الصلاة: அதான் அல் சலாத் உடன் உங்களுக்கு உதவ நாங்கள் இங்கே இருக்கிறோம்!</p>
+
+        <div class="highlight">
+            <strong>உதவி தேவையா?</strong> கீழே உள்ள அடிக்கடி கேட்கப்படும் கேள்விகளைப் பார்க்கவும் அல்லது நேரடியாக எங்களை தொடர்பு கொள்ளவும்.
+        </div>
+
+        <h2>தொடர்பு தகவல்</h2>
+        <div class="contact-box">
+            <p><strong>மின்னஞ்சல்:</strong> <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+        </div>
+
+        <h2>அடிக்கடி கேட்கப்படும் கேள்விகள்</h2>
+
+        <div class="faq-item">
+            <p class="faq-question">என் கொள்முதல்களை எவ்வாறு மீட்டெடுப்பது?</p>
+            <p class="faq-answer">அசல் கொள்முதலுக்கு பயன்படுத்திய அதே HUAWEI கணக்கில் உள்நுழைந்திருக்கும்போது கொள்முதல்கள் தானாக மீட்டெடுக்கப்படுகின்றன. உங்கள் கொள்முதல்கள் தோன்றவில்லை என்றால், சரியான HUAWEI கணக்கில் உள்நுழைந்திருக்கிறீர்களா என்பதை உறுதிசெய்து செயலியை மறுதொடக்கம் செய்யவும்.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">என் இருப்பிடத்தை எவ்வாறு அமைப்பது?</p>
+            <p class="faq-answer">சரியான தொழுகை நேரங்களை கணக்கிட செயலி தானாக உங்கள் GPS இருப்பிடத்தை கோருகிறது. கைமுறை இருப்பிடத்தை விரும்பினால், நகர தேடலுக்கு மாற தொழுகை திரையின் மேலே உள்ள இருப்பிட அட்டையை தட்டவும்.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">என் தொழுகை நேரங்கள் மற்ற செயலிகளில் இருந்து ஏன் வேறுபடுகின்றன?</p>
+            <p class="faq-answer">தொழுகை நேர கணக்கீடுகள் பயன்படுத்தப்படும் கணக்கீட்டு முறையைப் பொறுத்தது. வெவ்வேறு முறைகள் சற்று வேறுபட்ட நேரங்களை தருகின்றன. உங்கள் உள்ளூர் அதிகாரம் அல்லது விருப்பத்திற்கு பொருந்துமாறு அமைப்புகள் &gt; கணக்கீட்டு முறை என்பதில் முறையை மாற்றலாம்.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">அதான் ஒலியை எவ்வாறு இயக்குவது அல்லது மாற்றுவது?</p>
+            <p class="faq-answer">தொழுகை திரையில் எந்த தொழுகை அட்டையையும் தட்டி, பின்னர் ஒலி ஐகானை தட்டவும். இல்லை, அமைதி, பீப் அல்லது அதான் ஆகியவற்றில் தேர்வு செய்யலாம். அதான் தேர்ந்தெடுத்தால், ஒரு ஒலியை தேர்ந்தெடுத்து ஒரு தொழுகைக்கு அல்லது எல்லா தொழுகைகளுக்கும் பயன்படுத்தலாம்.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">செயலி மொழியை எவ்வாறு மாற்றுவது?</p>
+            <p class="faq-answer">அமைப்புகள் &gt; மொழி என்பதற்கு செல்லவும். أذان الصلاة: அதான் அல் சலாத் சொந்த உள்ளமைக்கப்பட்ட மொழி அமைப்பை கொண்டுள்ளது மற்றும் 88 மொழிகளை ஆதரிக்கிறது. இது தானாக உங்கள் சாதன மொழியை பின்பற்றாது.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">பிழையை எவ்வாறு புகாரளிப்பது அல்லது அம்சத்தை பரிந்துரைப்பது?</p>
+            <p class="faq-answer">உங்களிடமிருந்து கேட்கப் பெரிதும் விரும்புகிறோம்! சிக்கல் அல்லது பரிந்துரையின் விளக்கத்துடன் <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> என்ற முகவரிக்கு மின்னஞ்சல் அனுப்பவும். பிழையை புகாரளிக்கும்போது உங்கள் Android பதிப்பு மற்றும் சாதன மாடலை சேர்க்கவும்.</p>
+        </div>
+
+        <h2>கூடுதல் வளங்கள்</h2>
+        <ul>
+            <li><a href="https://yasserhamek.github.io/AthanAlSalat_PrivacyPolicy/privacy-policy-huawei-ta.html">தனியுரிமைக் கொள்கை</a></li>
+        </ul>
+
+        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">أذان الصلاة: அதான் அல் சலாத் பயன்படுத்தியதற்கு நன்றி!</p>
+    </div>
+</body>
+</html>

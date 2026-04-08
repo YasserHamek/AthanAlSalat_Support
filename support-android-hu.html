@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذان الصلاة: Azán al Szalát - Támogatás</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #1A3C34;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        h3 { color: var(--text-color); margin: 20px 0 10px; font-size: 1.1em; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(200,169,81,0.12);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid #C8A951;
+        }
+        .contact-box {
+            background: rgba(200,169,81,0.08);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .contact-box p { margin-bottom: 8px; }
+        .contact-box strong { color: var(--accent-color); }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .faq-item { margin-bottom: 25px; }
+        .faq-question { font-weight: 600; color: var(--text-color); margin-bottom: 8px; }
+        .faq-answer { color: #666; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="support-android.html">English</option>
+                <option value="support-android-af.html">Afrikaans</option>
+                <option value="support-android-sq.html">Shqip</option>
+                <option value="support-android-am.html">ሀመር</option>
+                <option value="support-android-ar.html">العربية</option>
+                <option value="support-android-hy.html">Հայերեն</option>
+                <option value="support-android-az.html">Azərbayccan</option>
+                <option value="support-android-eu.html">Euskara</option>
+                <option value="support-android-be.html">Беларуская</option>
+                <option value="support-android-bn.html">বাংলা</option>
+                <option value="support-android-bg.html">Български</option>
+                <option value="support-android-my.html">မြန်မာ</option>
+                <option value="support-android-ca.html">Català</option>
+                <option value="support-android-zh-CN.html">简体中文</option>
+                <option value="support-android-zh-HK.html">中文(香港)</option>
+                <option value="support-android-zh-TW.html">繁體中文</option>
+                <option value="support-android-hr.html">Hrvatski</option>
+                <option value="support-android-cs.html">Čeština</option>
+                <option value="support-android-da.html">Dansk</option>
+                <option value="support-android-nl.html">Nederlands</option>
+                <option value="support-android-et.html">Eesti</option>
+                <option value="support-android-fil.html">Filipino</option>
+                <option value="support-android-fi.html">Suomi</option>
+                <option value="support-android-fr.html">Français</option>
+                <option value="support-android-fr-CA.html">Français (Canada)</option>
+                <option value="support-android-gl.html">Galego</option>
+                <option value="support-android-ka.html">ქართული</option>
+                <option value="support-android-de.html">Deutsch</option>
+                <option value="support-android-el.html">Ελληνικά</option>
+                <option value="support-android-gu.html">ગુજરાતી</option>
+                <option value="support-android-hi.html">हिन्दी</option>
+                <option value="support-android-hu.html" selected>Magyar</option>
+                <option value="support-android-is.html">Íslenska</option>
+                <option value="support-android-id.html">Bahasa Indonesia</option>
+                <option value="support-android-it.html">Italiano</option>
+                <option value="support-android-ja.html">日本語</option>
+                <option value="support-android-kn.html">ಕನ್ನಡ</option>
+                <option value="support-android-kk.html">Қазақ</option>
+                <option value="support-android-km.html">ខ្មែរ</option>
+                <option value="support-android-ko.html">한국어</option>
+                <option value="support-android-ky.html">Кыргызча</option>
+                <option value="support-android-lo.html">ລາວ</option>
+                <option value="support-android-lv.html">Latviešu</option>
+                <option value="support-android-lt.html">Lietuvių</option>
+                <option value="support-android-mk.html">Македонски</option>
+                <option value="support-android-ms.html">Bahasa Melayu</option>
+                <option value="support-android-ml.html">മലയാളം</option>
+                <option value="support-android-mr.html">मराठी</option>
+                <option value="support-android-mn.html">Монгол</option>
+                <option value="support-android-ne.html">नेपाली</option>
+                <option value="support-android-no.html">Norsk</option>
+                <option value="support-android-fa.html">فارسی</option>
+                <option value="support-android-pl.html">Polski</option>
+                <option value="support-android-pt-BR.html">Português (Brasil)</option>
+                <option value="support-android-pt-PT.html">Português (Portugal)</option>
+                <option value="support-android-pa.html">ਪੰਜਾਬੀ</option>
+                <option value="support-android-ro.html">Română</option>
+                <option value="support-android-rm.html">Rumantsch</option>
+                <option value="support-android-ru.html">Русский</option>
+                <option value="support-android-sr.html">Српски</option>
+                <option value="support-android-si.html">සිංහල</option>
+                <option value="support-android-sk.html">Slovenčina</option>
+                <option value="support-android-sl.html">Slovenščina</option>
+                <option value="support-android-es-419.html">Español (Latinoamérica)</option>
+                <option value="support-android-es-ES.html">Español (España)</option>
+                <option value="support-android-es-US.html">Español (EE. UU.)</option>
+                <option value="support-android-sw.html">Kiswahili</option>
+                <option value="support-android-sv.html">Svenska</option>
+                <option value="support-android-ta.html">தமிழ்</option>
+                <option value="support-android-te.html">తెలుగు</option>
+                <option value="support-android-th.html">ไทย</option>
+                <option value="support-android-tr.html">Türkçe</option>
+                <option value="support-android-uk.html">Українська</option>
+                <option value="support-android-ur.html">اردو</option>
+                <option value="support-android-vi.html">Tiếng Việt</option>
+                <option value="support-android-zu.html">isiZulu</option>
+            </select>
+        </div>
+
+        <h1>أذان الصلاة: Azán al Szalát támogatás</h1>
+        <p>Azért vagyunk itt, hogy segítsünk Önnek az أذان الصلاة: Azán al Szalát használatában!</p>
+
+        <div class="highlight">
+            <strong>Segítségre van szüksége?</strong> Tekintse meg az alábbi gyakran ismételt kérdéseket, vagy lépjen kapcsolatba velünk közvetlenül.
+        </div>
+
+        <h2>Kapcsolattartási adatok</h2>
+        <div class="contact-box">
+            <p><strong>E-mail:</strong> <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+        </div>
+
+        <h2>Gyakran ismételt kérdések</h2>
+
+        <div class="faq-item">
+            <p class="faq-question">Hogyan állíthatom vissza a vásárlásaimat?</p>
+            <p class="faq-answer">A vásárlások automatikusan visszaállnak, ha ugyanazzal a Google-fiókkal van bejelentkezve, amelyet az eredeti vásárláshoz használt. Ha a vásárlások nem jelennek meg, győződjön meg arról, hogy a megfelelő Google-fiókba van bejelentkezve, és próbálja meg újraindítani az alkalmazást.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Hogyan állíthatom be a tartózkodási helyemet?</p>
+            <p class="faq-answer">Az alkalmazás automatikusan kéri a GPS-helyadatait a pontos imaidők kiszámításához. Ha manuális helymegadást részesít előnyben, koppintson a Ima képernyő tetején lévő helykártyára, hogy váltson a városkeresésre.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Miért térnek el az imaidőim más alkalmazásoktól?</p>
+            <p class="faq-answer">Az imaidők kiszámítása a használt számítási módszertől függ. A különböző módszerek kissé eltérő időpontokat adnak. A módszert a Beállítások &gt; Számítási módszer menüpontban módosíthatja, hogy megfeleljen a helyi hatóságoknak vagy preferenciájának.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Hogyan engedélyezhetem vagy módosíthatom az azán hangját?</p>
+            <p class="faq-answer">Koppintson bármelyik imakártyára az Ima képernyőn, majd koppintson a hangikonra. Választhat a Nincs, Néma, Hangjelzés vagy Azán lehetőségek közül. Ha az Azán opciót választja, kiválaszthat egy hangot, és alkalmazhatja egy imára vagy az összes imára.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Hogyan változtathatom meg az alkalmazás nyelvét?</p>
+            <p class="faq-answer">Lépjen a Beállítások &gt; Nyelv menüpontra. Az أذان الصلاة: Azán al Szalát saját beépített nyelvbeállítással rendelkezik, és 76 nyelvet támogat. Nem követi automatikusan az eszköz nyelvét.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-question">Hogyan jelenthetek hibát, vagy javasolhatok új funkciót?</p>
+            <p class="faq-answer">Szívesen meghallgatjuk Önt! Kérjük, írjon nekünk a <a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a> e-mail-címre a probléma vagy javaslat leírásával. Hiba bejelentésekor adja meg az Android verzióját és az eszköz modelljét.</p>
+        </div>
+
+        <h2>További erőforrások</h2>
+        <ul>
+            <li><a href="https://yasserhamek.github.io/AthanAlSalat_PrivacyPolicy/privacy-policy-android-hu.html">Adatvédelmi irányelvek</a></li>
+        </ul>
+
+        <p style="margin-top: 30px; color: #666; font-size: 0.9em;">Köszönjük, hogy az أذان الصلاة: Azán al Szalát alkalmazást használja!</p>
+    </div>
+</body>
+</html>
